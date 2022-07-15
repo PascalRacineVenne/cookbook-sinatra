@@ -1,10 +1,21 @@
-<p>I'm in a <em>view</em>!</p>
-<%= Time.now %>
+
+
+<h1>Welcome to the Sinatra Cookbook</h1>
 
 <ul>
-  <% @usernames.each do |username| %>
-    <li>
-      <%= username %>
-    </li>
+  <% @recipes.each_with_index do |recipe, index| %>
+    <div class="card">
+      <li>
+        <h3 class="card_title"><%= index + 1 %> - <%= recipe.name.capitalize %></h3>
+        <p><%= recipe.description %></p>
+        <small><%= recipe.prep_time  %> min</small>
+        <small><%= recipe.rating  %> star</small>
+      </li>
+      <div class="">
+        <button class="remove_btn">
+          <a href="/recipes/<%= index %>">delete</a>
+        </button>
+      </div>
+    </div>
   <% end %>
 </ul>
