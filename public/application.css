@@ -217,7 +217,7 @@ h1 strong {
   line-height: 50px;
   transition: all 0.3s ease;
   border-radius: 50px;
-  background: linear-gradient(145deg, #e5dfdf, #ffffff);
+  background: linear-gradient(145deg, #e5cfcf, #ffffffe8);
   box-shadow: 6px 6px 12px #f6f1f1, -6px -6px 12px #ffffff;
 }
 .wrapper ul li a:after {
