@@ -94,7 +94,7 @@ h1 strong {
 
 .card__arc path {
   fill: var(--surface-color);
-  d: path('M 40 80 c 22 0 40 -22 40 -40 v 40 Z');
+  /* d: path('M 40 80 c 22 0 40 -22 40 -40 v 40 Z'); */
 }
 
 .card:hover .card__header {
@@ -181,7 +181,8 @@ h1 strong {
   /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
   /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
-  background: #000;
+  /* background: #000; */
+  background: #c4a698;
   /* background: rgb(126, 44, 44); */
   transition: all 0.3s ease-in-out;
 }
