@@ -201,7 +201,7 @@ h1 strong {
   text-align: center;
 }
 .wrapper ul li {
-  margin: 48px 0;
+  margin: 32px 0;
 }
 .wrapper ul li a {
   width: 120px;
@@ -209,7 +209,7 @@ h1 strong {
   text-decoration: none;
   font-size: 30px;
   font-weight: 500;
-  padding: 16px 48px;
+  padding: 8px 24px;
   color: #65657b;
   /* color: #fff; */
   /* border-radius: 50px; */
@@ -217,9 +217,11 @@ h1 strong {
   position: relative;
   line-height: 50px;
   transition: all 0.3s ease;
+  border: 2px solid #422800;
+  box-shadow: #422800 4px 4px 0 0;
   border-radius: 50px;
   background: linear-gradient(145deg, #e5cfcf, #ffffffe8);
-  box-shadow: 6px 6px 12px #f6f1f1, -6px -6px 12px #ffffff;
+  /* box-shadow: 6px 6px 12px #f6f1f1, -6px -6px 12px #ffffff; */
 }
 .wrapper ul li a:after {
   position: absolute;
