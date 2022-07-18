@@ -2,3 +2,5 @@ name,description,rating,prep_time,done
 pasta, italian madness, 4, 25,false
 grape,best thing,4,20,false
 Fettuccini,Italian classic,"",20,false
+Chicken parmigianno,La nonna,5,35,false
+un nid pour la vie,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis purus massa, et lacinia sem facilisis ac. Mauris purus neque, ultricies eget libero et, commodo tristique erat. Sed sodales feugiat odio, a accumsan nisl vehicula at. Vestibulum tortor nulla, dignissim eget lacinia et, ullamcorper ac sem. Morbi id pulvinar sapien",5,20,false
