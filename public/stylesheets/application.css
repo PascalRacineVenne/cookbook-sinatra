@@ -1,0 +1,43 @@
+@import 'cards.css';
+@import 'form.css';
+@import 'menu.css';
+
+:root {
+  --surface-color: #fff;
+  --curve: 8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #fef8f8;
+  margin: 0;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  color: #666666;
+  font-size: 30px;
+  line-height: 1em;
+  margin: 0 0 0 60px;
+}
+
+h1 strong {
+  color: #c3a698;
+  display: block;
+  font-size: 85px;
+  font-weight: normal;
+  letter-spacing: -3.5px;
+  line-height: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.about {
+  margin: 300px auto;
+}
